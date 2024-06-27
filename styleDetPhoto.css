@@ -1,0 +1,173 @@
+
+.big-image {
+    width: 80%;
+    margin: 0px 10px 0px 54px;
+    display: flex;
+}
+.container-photo {
+    display: flex;
+    width: 55%;
+}
+.s-image {
+    width: 126px;
+}
+
+.imageCom {
+    margin: 18px 0px 0px 0px;
+    width: 100%;
+}
+
+.imgCompan {
+    width: 100%;
+}
+.s-image {
+    width: 20%;
+    margin: -8px 0px 0px 0px;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1.imgComName {
+    width: 687px;
+    text-align: center;
+    margin: 26px 0px 1px 0px;
+    color: #17174d;
+}
+
+.titleCOP {
+    display: flex;
+    margin: 11px 0px 25px 0px;
+}
+
+.hotel-cart {
+    width: 495px;
+    display: flex;
+    background: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 14px;
+    margin: 5px 0 0 98px;
+    padding: 22px 0px;
+}
+
+.det-hotel {
+    text-align: end;
+}
+
+.img-hotel {
+    width: 149px;
+    padding: 9px;
+}
+
+.\32 cont {
+    display: flex;
+}
+
+.comments {
+    border: 1px solid #0000001a;
+    border-radius: 11px;
+    width: 92%;
+    margin: auto;
+    text-align: end;
+    padding: 13px 21px;
+    margin: 57px auto;
+}
+
+.bob-comment {
+    display: flex;
+    flex-direction: row-reverse;
+    background: aliceblue;
+    padding: 11px;
+    border-radius: 14px;
+    align-items: center;
+    margin: 20px 0px -11px 0px;
+}
+
+.comm {
+    margin: 0px 9px 0px 15px;
+    font-size: 29px;
+}
+
+.Add-comment {
+    background: #f0f8ff94;
+    margin: 56px 0px;
+    border-radius: 14px;
+    padding: 11px 0;
+}
+
+h4 {
+    padding: 14px;
+}
+
+input[type="text"] {
+    margin: 0px 32px 0px 5px;
+    width: 89%;
+    text-align: end;
+    padding: 10px 8px;
+    border-radius: 5px;
+    border: 1px solid #00000026;
+}
+
+.inp-group {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+input[type="submit"] {
+    padding: 0px 22px;
+    border: navajowhite;
+    background: #07072a9e;
+    color: white;
+    font-family: 'Cairo';
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a.btn-comp {
+    font-size: 18px;
+    background: blueviolet;
+    color: #fff;
+    padding: 2px 27px;
+    border-radius: 10px;
+    transition: .7s;
+}
+a.btn-comp:hover {
+    background:rgb(231, 208, 252) ;
+    color: black;
+}
+
+
+.container-photo {
+    z-index: 200000;
+    position: relative;
+}
+
+.imageCom img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.imageCom:hover img {
+    transform: scale(5.2); 
+    z-index: 2000000;
+}
+
+.hotel-cart {
+    position: relative;
+}
+
+.img-hotel img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-hotel:hover img {
+    transform: scale(5.2); 
+    z-index: 2000000; /* زيادة z-index هنا لتكون الصورة أعلى من العناصر الأخرى */
+}
+
+
+i.fas.fa-star.filled {
+    color: gold;
+}

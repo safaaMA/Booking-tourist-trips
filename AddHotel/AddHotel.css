@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Cairo', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: end;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+form {
+    text-align: end;
+}
+label.hotelImage {
+    border: 1px solid;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+.inpAdd{
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 30px;
+}
+
+.rating > input {
+    display: none;
+}
+
+.rating > label {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    color: #FFD700;
+    font-size: 53px;
+    top: -23px;
+    left: -6px;
+}

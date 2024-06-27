@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+a {
+    margin: 0px 5px;
+}
+
+.Container {
+    display: block;
+    width: 97%;
+    margin: auto;
+}
+
+nav.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f3f3;
+    margin: 7px;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li {
+    display: block;
+    margin: 0px 13px;
+}
+
+
+.MainTaxt {
+    width: 50%;
+    text-align: end;
+}
+
+.MainTaxt a {
+    background: #fff;
+    padding: 0px 14px;
+    border-radius: 11px;
+    transition: .8s;
+}
+
+.MainTaxt H1 {
+    color: brown;
+}
+
+.MainTaxt P {
+    color: rgb(5 5 5 / 62%);
+}
+
+.MainTaxt a:hover {
+    background-color: brown;
+    color: #fff;
+}
+
+.conentInter {
+    display: flex;
+    align-items: center;
+    background: aliceblue;
+    border-radius: 15px;
+    margin: 21px 8px;
+    justify-content: space-around;
+}
+
+.a-Go {
+    text-align: end;
+    margin: 10px 0px;
+}
+
+.cart-det {
+    display: flex;
+    width: 99%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.oneCart {
+    background: aliceblue;
+    display: flex;
+    width: 27%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 14px;
+    font-size: 18px;
+    padding: 17px;
+    text-align: center;
+}
+
+.oneCart img {
+    width: 132px;
+}
+
+i.fa-solid.fa-map-location {
+    color: #8a2be2c2;
+}
+
+.aa.container-Locations {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 25px auto;
+}
+
+/* -----------------------الشركات السياحية------------------------------------ */
+.image-comp {
+    width: 100%;
+}
+
+.image-comp img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.Gruop-Cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cart {
+    width: 282px;
+    background: #f3f3f3;
+    padding: 19px 5px;
+    border-radius: 14px;
+    margin: 14px;
+}
+
+.detils-comp h1 {
+    font-size: 18px;
+    text-align: end;
+    margin: 13px 12px 0 0;
+}
+
+.detils-comp p {
+    text-align: end;
+    margin: 3px 12px 0 0;
+}
+
+.a-det {
+    text-align: end;
+    margin: 10px 12px 16px 0;
+}
+
+.a-det a {
+    background: azure;
+    padding: 0 9px;
+    border-radius: 7px;
+    color: #000;
+    transition: .8s;
+}
+
+.a-det a:hover {
+    background: rgba(0, 0, 255, 0.178);
+    color: #000000;
+}
+
+.search {
+    text-align: center;
+    margin: 33px 0px 14px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+input[type="search"] {
+    width: 36%;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #00000069;
+}
+
+/* ---------------فوتيرررر----------------- */
+.footer {
+    margin: 127px 0px 0px 0px;
+    background: aliceblue;
+}
+
+.conect {
+    text-align: center;
+}
+
+ul.Ul-conect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+ul.Ul-conect li {
+    font-size: 27px;
+}
+
+.footer-det {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 26px 0px 0px 0px;
+    align-items: center;
+}
+
+ul.ulTow,
+ul.ulOne {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+ul.ulOne li a {
+    color: black;
+}
+
+ul.ulTow li a {
+    color: black;
+}
+
+.p {
+    text-align: center;
+    padding: 10px 0px 0 0;
+    background: aliceblue;
+    color: #00000047;
+}
+
+/* ----------تفاصيل الشركات----------------------- */
+.Comp-Det {
+    text-align: center;
+    font-size: 14px;
+    margin: 27px 0px;
+    color: brown;
+}
+
+.location {
+    text-align: center;
+    font-size: 11px;
+}
+
+.location h2 {
+    margin: 38px 0px 15px 0px;
+}
+
+a.AddCom {
+    background: #0a6dff;
+    padding: 0px 11px;
+    border-radius: 14px;
+    color: white;
+}
+
+.hotels {
+    height: 459px;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.border {
+    width: 100%;
+    height: 275px;
+    display: flex;
+}
+
+.containerHotelOfTravel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+
+.trip-details {
+    background: aliceblue;
+    width: 216px;
+    text-align: center;
+    padding: 41px 0px;
+    color: black;
+    border-radius: 14px;
+    margin: 38px 0px 0px 0px;
+}
+
+.titleTrip {
+    text-align: center;
+    font-size: 26px;
+    background: aliceblue;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 13px;
+}
+
+.proTrip {
+    width: 80%;
+    background: aliceblue;
+    margin: 52px auto;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 13px;
+    padding: 8px;
+    font-family: 'Cairo';
+}
+
+.trip {
+    text-align: center;
+    background: aliceblue;
+    width: 80%;
+    margin: auto;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 18px;
+}
+
+.form-group-to {
+    margin: 22px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.spanto {
+    background: #ff5c5c4d;
+    padding: 6px;
+    border-radius: 11px;
+}
+
+.addTrips {
+    width: 96%;
+    text-align: end;
+}
+
+.booking {
+    background: #00ff6b;
+    width: 112px;
+    position: fixed;
+    text-align: center;
+    left: 1238px;
+    right: 1px;
+    top: 273px;
+    border-radius: 10px 2px 0px 14px;
+    z-index: 1000;
+}
+
+.booking a {
+    color: black;
+}
+
+.options {
+    text-align: end;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.logdiv {
+    display: contents;
+}
+
+i.fa-solid.fa-star.topstar {
+    color: blue;
+}
+
+.not {
+    text-align: center;
+    color: black;
+}
